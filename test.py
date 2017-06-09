@@ -17,7 +17,7 @@ SCOPES = ['https://mail.google.com/',
           'https://www.googleapis.com/auth/gmail.send']
 
 CLIENT_SECRET_FILE = 'test.json' #OAuth 2.0 用戶端 ID
-CREDENTIAL_FILE = 'test.json' # 服務帳戶金鑰 管理服務帳戶
+CREDENTIAL_FILE = 'test.json' # 服務帳戶金鑰 
 #https://developers.google.com/identity/protocols/OAuth2ServiceAccount#creatinganaccount
 APPLICATION_NAME = 'hikidiary-1496310174324'
 MANUAL_AUTH = True
@@ -31,10 +31,6 @@ except ImportError:
     flags = None    
 
 # If modifying these scopes, delete your previously saved credentials at ~/.credentials/gmail-python-quickstart.json
-SCOPES = ['https://mail.google.com/',
-          'https://www.googleapis.com/auth/gmail.compose',
-          'https://www.googleapis.com/auth/gmail.modify',
-          'https://www.googleapis.com/auth/gmail.send']
 
 class PythonGmailAPI:
     def __init__(self):
